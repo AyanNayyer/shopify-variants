@@ -1,0 +1,251 @@
+.variantsTable {
+  background: white;
+  border: 1px solid #e1e3e5;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+.tableHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 20px;
+  border-bottom: 1px solid #e1e3e5;
+  background: #fafbfb;
+}
+
+.groupControls {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  color: #202223;
+}
+
+.select {
+  padding: 6px 8px;
+  border: 1px solid #c9cccf;
+  border-radius: 4px;
+  background: white;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.select:focus {
+  outline: none;
+  border-color: #005bd3;
+}
+
+.searchControls {
+  display: flex;
+  gap: 8px;
+  font-size: 16px;
+  color: #8c9196;
+  cursor: pointer;
+  align-items: center;
+}
+
+.searchControls span {
+  cursor: pointer;
+  padding: 4px;
+  border-radius: 4px;
+}
+
+.searchControls span:hover {
+  color: #005bd3;
+  background: #f1f2f3;
+}
+
+.searchInput {
+  padding: 6px 8px;
+  border: 1px solid #c9cccf;
+  border-radius: 4px;
+  font-size: 14px;
+  width: 200px;
+  background: white;
+}
+
+.searchInput:focus {
+  outline: none;
+  border-color: #005bd3;
+}
+
+.tableContainer {
+  overflow-x: auto;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table th {
+  text-align: left;
+  padding: 12px 16px;
+  background: #f1f2f3;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #6d7175;
+  border-bottom: 1px solid #e1e3e5;
+}
+
+.table td {
+  padding: 12px 16px;
+  border-bottom: 1px solid #f1f2f3;
+}
+
+.collapseBtn {
+  background: none;
+  border: none;
+  color: #005bd3;
+  font-size: 12px;
+  cursor: pointer;
+  text-transform: none;
+  font-weight: normal;
+  margin-left: 8px;
+}
+
+.collapseBtn:hover {
+  text-decoration: underline;
+}
+
+.expandAllBtn {
+  background: none;
+  border: none;
+  color: #005bd3;
+  font-size: 12px;
+  cursor: pointer;
+  text-transform: none;
+  font-weight: normal;
+  margin-left: 4px;
+}
+
+.expandAllBtn:hover {
+  text-decoration: underline;
+}
+
+.groupHeader {
+  background: #fafbfb;
+}
+
+.groupTitle {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 600;
+}
+
+.variantIcon {
+  color: #005bd3;
+}
+
+.variantCount {
+  font-size: 12px;
+  color: #6d7175;
+  font-weight: normal;
+}
+
+.expandBtn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #8c9196;
+  margin-left: auto;
+  padding: 4px;
+  border-radius: 4px;
+}
+
+.expandBtn:hover {
+  background: #f1f2f3;
+  color: #202223;
+}
+
+.variantRow.subVariant {
+  background: #fafbfb;
+}
+
+.variantRow.subVariant .variantCell {
+  padding-left: 32px;
+}
+
+.variantRow.subVariant .variantIcon {
+  opacity: 0.6;
+}
+
+.variantRow:hover {
+  background: #f7f8f9;
+}
+
+.variantRow.subVariant:hover {
+  background: #f1f2f3;
+}
+
+.variantCell {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.variantInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.variantTitle {
+  font-size: 12px;
+  color: #6d7175;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.variantValues {
+  font-size: 14px;
+  color: #202223;
+  font-weight: 500;
+}
+
+.priceInput,
+.inventoryInput {
+  padding: 6px 8px;
+  border: 1px solid #c9cccf;
+  border-radius: 4px;
+  font-size: 14px;
+  width: 100px;
+}
+
+.priceInput:focus,
+.inventoryInput:focus {
+  outline: none;
+  border-color: #005bd3;
+}
+
+.footer {
+  padding: 16px 20px;
+  border-top: 1px solid #e1e3e5;
+  background: #fafbfb;
+  font-size: 14px;
+  color: #202223;
+  text-align: center;
+}
+
+.groupInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.groupName {
+  font-size: 12px;
+  color: #6d7175;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.groupValue {
+  font-size: 14px;
+  color: #202223;
+  font-weight: 600;
+}
+  

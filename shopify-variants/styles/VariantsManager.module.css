@@ -1,0 +1,215 @@
+.variantsManager {
+  background: white;
+  border: 1px solid #e1e3e5;
+  border-radius: 8px;
+  padding: 16px;
+  margin-top: 20px;
+}
+
+.variantsManager h2 {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 16px;
+  color: #202223;
+}
+
+.emptyState {
+  text-align: center;
+  padding: 40px 20px;
+  color: #6d7175;
+  font-size: 14px;
+  background: #fafbfb;
+  border: 1px dashed #c9cccf;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.optionEditor {
+  border: 1px solid #e1e3e5;
+  border-radius: 6px;
+  padding: 16px;
+  margin-bottom: 12px;
+  background: #fafbfb;
+}
+
+.optionHeader {
+  margin-bottom: 16px;
+}
+
+.optionHeader label {
+  display: block;
+  font-size: 14px;
+  font-weight: 500;
+  color: #202223;
+  margin-bottom: 8px;
+}
+
+.input {
+  width: 100%;
+  padding: 8px 12px;
+  border: 1px solid #c9cccf;
+  border-radius: 4px;
+  font-size: 14px;
+  background: white;
+}
+
+.input:focus {
+  outline: none;
+  border-color: #005bd3;
+}
+
+.optionValues {
+  margin-bottom: 16px;
+}
+
+.optionValues label {
+  display: block;
+  font-size: 14px;
+  font-weight: 500;
+  color: #202223;
+  margin-bottom: 8px;
+}
+
+.emptyValues {
+  text-align: center;
+  padding: 20px;
+  color: #8c9196;
+  font-size: 13px;
+  font-style: italic;
+  background: #fafbfb;
+  border: 1px dashed #e1e3e5;
+  border-radius: 4px;
+  margin-bottom: 8px;
+}
+
+.valueRow {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+.dragHandle {
+  color: #8c9196;
+  cursor: grab;
+  font-size: 12px;
+  user-select: none;
+}
+
+.dragHandle:active {
+  cursor: grabbing;
+}
+
+.deleteButton {
+  background: none;
+  border: none;
+  color: #d82c0d;
+  cursor: pointer;
+  padding: 4px;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.deleteButton:hover {
+  background: #fef7f7;
+}
+
+.addValueRow {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+.addValueInput {
+  flex: 1;
+  padding: 8px 12px;
+  border: 1px dashed #c9cccf;
+  border-radius: 4px;
+  font-size: 14px;
+  background: white;
+  color: #8c9196;
+}
+
+.addValueInput:focus {
+  outline: none;
+  border-color: #005bd3;
+  border-style: solid;
+  color: #202223;
+}
+
+.optionActions {
+  display: flex;
+  gap: 8px;
+  justify-content: flex-end;
+}
+
+.deleteOption {
+  background: none;
+  border: 1px solid #d82c0d;
+  color: #d82c0d;
+  padding: 8px 16px;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.deleteOption:hover {
+  background: #d82c0d;
+  color: white;
+}
+
+.doneButton {
+  background: #005bd3;
+  border: 1px solid #005bd3;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.doneButton:hover {
+  background: #004499;
+  border-color: #004499;
+}
+
+.addOption {
+  margin-top: 16px;
+}
+
+.addButton {
+  background: none;
+  border: 1px dashed #005bd3;
+  color: #005bd3;
+  font-size: 14px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 12px 16px;
+  border-radius: 4px;
+  transition: all 0.2s ease;
+}
+
+.addButton:hover {
+  background: #f7f8f9;
+  border-style: solid;
+}
+
+.validationWarning {
+  background: #fff4e5;
+  border: 1px solid #ffb366;
+  border-radius: 8px;
+  padding: 12px 16px;
+  margin-bottom: 16px;
+  color: #8b5a00;
+  font-size: 14px;
+}
+
+.validationWarning p {
+  margin: 0;
+}
+  
