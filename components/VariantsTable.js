@@ -153,7 +153,7 @@ export default function VariantsTable({ options, variants, onVariantUpdate }) {
             {searchTerm.trim() && filteredVariants.length === 0 && (
               <tr>
                 <td colSpan="3" style={{ textAlign: 'center', padding: '40px', color: '#6d7175' }}>
-                  No variants found matching "{searchTerm}"
+                  No variants found matching &quot;{searchTerm}&quot;
                 </td>
               </tr>
             )}
